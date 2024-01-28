@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(134, 134, 151);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.hireme{
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    padding: 8px 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+}
+.hireme:hover{
+    color: aqua;
+    background: none;
+}
+#toggler,label{
+    font-size: 35px;
+    font-weight: bold;
+    display: none;
+    margin-right:50px ;
+}
+
+.bars i{
+    color: white;
+}
+
+
+
+nav {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #07294d
+}
+.logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:hover {
+    color: rgb(206, 206, 223);
+    font-size: 1.03rem;
+}
+
+/* firstSection start */
+.firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+    margin-left: 30px
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 2.2rem;
+}
+
+.rightSection img {
+    width: 80%;
+    /* margin: 50px 0; */
+}
+
+#element {
+    color: crimson;
+}
+/* firstSection end */
+/* second sectoin start */
+.secondSection{
+    background-color: antiquewhite  ;
+    color: black;
+    padding: 60px 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.leftAbout img{
+    width: 100%;
+    border-radius: 10px;
+}
+.txt{
+    width: 40%;
+    padding: 5%;
+}
+.secondSection h1{
+    color: black;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+.rightAbout p{
+    font-size: 20px;
+}
+.secondSection h6{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+/* third sectoin  about end */
+
+
+/* third sectoin  services start */
+
+.thirdSection h1{
+    color:white;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+.thirdSection h6{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+.thirdSection{
+    padding: 100px 30px;
+    background-color:black;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding: 20px 0;
+    width: 30%;
+}
+.box{
+    background-color: rgb(31, 29, 29);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* third sectoin  home end */
+
+/* fourth sectoin  skills start */
+.fourthSection{
+    /* width: 100vw; */
+    height: auto;
+    color: rgb(2, 2, 2);
+    background-color: rgb(196, 234, 234);
+    padding: 80px;
+}
+.skillsText h1{
+    color:black;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+.skillsText h6{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.skillsLeft{
+    width: calc(50% - 30px);
+}
+.skillsText1{
+    font-size: 25px;
+    color: black;
+}
+.skillsContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skillsRight{
+    width: calc(50% - 30px);
+}
+.bars{
+    margin-bottom: 15px;
+}
+.bars .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skillsRight span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.line{
+    height:5px;
+    width: 100%;
+    background-color: lightslategray;
+    position: relative;
+}
+.line::before{
+    content:'';
+    position:absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: crimson;
+}
+.html::before{
+    width: 90%;
+}
+.css::before{
+    width: 80%;
+}
+.js::before{
+    width: 60%;
+}
+.python::before{
+    width: 80%;
+}
+.django::before{
+    width: 70%;
+}
+.mysql::before{
+    width: 80%;
+}
+.left a{
+    text-align: justify;
+}
+/* fourth sectoin  skills end */
+
+/* fourth sectoin  contact start */
+.contactSection{
+    background-color: rgb(244, 245, 239);
+    padding: 100px 0;
+}
+.contactSection h1{
+    color: black;
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.contactSection h6{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.contactUs{
+    width: 60%;
+    margin: 0 20%;
+    border-radius: 20px;
+    background: rgb(174, 176, 213);
+}
+.center{
+    width: 50%;
+    padding:0 25%;
+    align-items: center;
+}
+.input{
+    height: 40px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+.textarea{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    color: aqua;
+    background: none;
+}
+/* fourth sectoin  contact end */
+
+
+/* footer start */
+
+footer{
+    background-color:#07294d;
+}
+.footerContent{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.footerContent>div{
+    width: 30%;
+    padding:0 10%;
+    /* align-items: center; */
+}
+/* .social li{
+    margin: 0 5px;
+    padding: 4px 10px;
+    font-size: 25px;
+} */
+.footer ul{
+    list-style: none;
+    
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer_rights{
+    text-align: center;
+    color: gray;
+}
+.ico{
+    font-size: 35px;
+    font-weight: bold;
+    color: crimson;
+}
+.services_text3{
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+.box:hover .ico{
+    color: white;
+    font-size: 38px;
+}
+.box:hover .services_text3{
+    color:white;
+    font-size: 27px;
+}
+/* footer end */
+
+
+
+@media(max-width:800px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    label{
+        display: inline-flex;
+    }
+    #toggler:checked~.menu{
+        max-height:100% ;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .logo{
+        margin-left:50px ;
+    }
+
+    nav{
+        height: auto;
+        padding: 10px 0;
+
+        justify-content: space-between;
+    }
+    .list li{
+        padding-top: 10px;
+    }
+    .firstSection{
+        flex-direction: column;
+    }
+    .firstSection>div {
+        width: 80%;
+
+    }
+
+/* about start */
+    .about{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    
+    .txt{
+        width: 80%;
+        padding: 10%;
+    }
+
+/* about end */
+    
+    
+    .services{
+        flex-direction: column;
+        padding:0  40px;
+    }
+    .services .card{
+        padding: 20px 0;
+        width: 100%;
+        
+    }
+    .skillsContent{
+        flex-direction: column;
+    }
+    .skillsContent>div{
+        width: 100%;
+    }
+
+    /* footer */
+    
+    .footerContent>div{
+        width: 40%;
+        padding:0 3.3%;
+        /* align-items: center; */
+    }
+
+}
